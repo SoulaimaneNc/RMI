@@ -100,11 +100,13 @@ public class SalleMachine extends javax.swing.JInternalFrame {
         ));
         jScrollPane1.setViewportView(jTable1);
 
+        setBackground(new java.awt.Color(204, 204, 255));
         setClosable(true);
         setIconifiable(true);
         setMaximizable(true);
         setTitle("Machines par Salle");
 
+        jPanel1.setBackground(new java.awt.Color(204, 204, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Informations"));
 
         jLabel1.setText("Salle");

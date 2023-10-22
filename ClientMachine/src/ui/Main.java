@@ -38,6 +38,8 @@ public class Main extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        desktopPane.setBackground(new java.awt.Color(204, 204, 255));
+
         editMenu.setMnemonic('e');
         editMenu.setText("Gestion");
 
